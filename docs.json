@@ -44,12 +44,128 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              {
+                "group": "Accounts",
+                "icon": "user",
+                "pages": [
+                  "api-reference/endpoint/accounts/get-creator-profile",
+                  "api-reference/endpoint/accounts/get-current-account",
+                  "api-reference/endpoint/accounts/get-email-stats",
+                  "api-reference/endpoint/accounts/get-growth-stats",
+                  "api-reference/endpoint/accounts/list-colors",
+                  "api-reference/endpoint/accounts/update-colors"
+                ]
+              },
+              {
+                "group": "Broadcasts",
+                "icon": "inbox",
+                "pages": [
+                  "api-reference/endpoint/broadcasts/create-a-broadcast",
+                  "api-reference/endpoint/broadcasts/delete-a-broadcast",
+                  "api-reference/endpoint/broadcasts/get-a-broadcast",
+                  "api-reference/endpoint/broadcasts/get-link-clicks-for-a-broadcast",
+                  "api-reference/endpoint/broadcasts/get-stats-for-a-broadcast",
+                  "api-reference/endpoint/broadcasts/get-stats-for-a-list-of-broadcasts",
+                  "api-reference/endpoint/broadcasts/list-broadcasts",
+                  "api-reference/endpoint/broadcasts/update-a-broadcast"
+                ]
+              },
+              {
+                "group": "Custom Fields",
+                "icon": "tag",
+                "pages": [
+                  "api-reference/endpoint/custom-fields/bulk-create-custom-fields",
+                  "api-reference/endpoint/custom-fields/create-a-custom-field",
+                  "api-reference/endpoint/custom-fields/delete-custom-field",
+                  "api-reference/endpoint/custom-fields/list-custom-fields",
+                  "api-reference/endpoint/custom-fields/update-a-custom-field"
+                ]
+              },
+              {
+                "group": "Email Templates",
+                "icon": "envelope",
+                "pages": [
+                  "api-reference/endpoint/email-templates/list-email-templates"
+                ]
+              },
+              {
+                "group": "Forms",
+                "icon": "file-lines",
+                "pages": [
+                  "api-reference/endpoint/forms/add-subscriber-to-form-by-email-address",
+                  "api-reference/endpoint/forms/add-subscriber-to-form",
+                  "api-reference/endpoint/forms/bulk-add-subscribers-to-forms",
+                  "api-reference/endpoint/forms/list-forms",
+                  "api-reference/endpoint/forms/list-subscribers-for-a-form"
+                ]
+              },
+              {
+                "group": "Purchases",
+                "icon": "cart-shopping",
+                "pages": [
+                  "api-reference/endpoint/purchases/create-a-purchase",
+                  "api-reference/endpoint/purchases/get-a-purchase",
+                  "api-reference/endpoint/purchases/list-purchases"
+                ]
+              },
+              {
+                "group": "Segments",
+                "icon": "layer-group",
+                "pages": [
+                  "api-reference/endpoint/segments/list-segments"
+                ]
+              },
+              {
+                "group": "Sequences",
+                "icon": "timeline",
+                "pages": [
+                  "api-reference/endpoint/sequences/add-subscriber-to-sequence-by-email-address",
+                  "api-reference/endpoint/sequences/add-subscriber-to-sequence",
+                  "api-reference/endpoint/sequences/list-sequences",
+                  "api-reference/endpoint/sequences/list-subscribers-for-a-sequence"
+                ]
+              },
+              {
+                "group": "Subscribers",
+                "icon": "users",
+                "pages": [
+                  "api-reference/endpoint/subscribers/bulk-create-subscribers",
+                  "api-reference/endpoint/subscribers/create-a-subscriber",
+                  "api-reference/endpoint/subscribers/get-a-subscriber",
+                  "api-reference/endpoint/subscribers/list-subscribers",
+                  "api-reference/endpoint/subscribers/list-tags-for-a-subscriber",
+                  "api-reference/endpoint/subscribers/unsubscribe-subscriber",
+                  "api-reference/endpoint/subscribers/update-a-subscriber"
+                ]
+              },
+              {
+                "group": "Tags",
+                "icon": "tags",
+                "pages": [
+                  "api-reference/endpoint/tags/bulk-create-tags",
+                  "api-reference/endpoint/tags/bulk-remove-tags-from-subscribers",
+                  "api-reference/endpoint/tags/bulk-tag-subscribers",
+                  "api-reference/endpoint/tags/create-a-tag",
+                  "api-reference/endpoint/tags/list-subscribers-for-a-tag",
+                  "api-reference/endpoint/tags/list-tags",
+                  "api-reference/endpoint/tags/remove-tag-from-subscriber-by-email-address",
+                  "api-reference/endpoint/tags/remove-tag-from-subscriber",
+                  "api-reference/endpoint/tags/tag-a-subscriber-by-email-address",
+                  "api-reference/endpoint/tags/tag-a-subscriber",
+                  "api-reference/endpoint/tags/update-tag-name"
+                ]
+              },
+              {
+                "group": "Webhooks",
+                "icon": "webhook",
+                "pages": [
+                  "api-reference/endpoint/webhooks/create-a-webhook",
+                  "api-reference/endpoint/webhooks/delete-a-webhook",
+                  "api-reference/endpoint/webhooks/list-webhooks"
+                ]
+              }
             ]
           }
         ]
