@@ -1,33 +1,27 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: 'Learn how to use the Kit API for automation and building apps.'
 ---
-
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
 
 ## Welcome
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+Kit API v4 is the latest version of our API, designed to help you create feature-rich apps as a third-party developer or automate your own workflows as a creator. API v3 is still available for use but is deprecated and will be sunset in the future. We recommend using API v4 for all new projects.
 
 <Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
+  title="Postman collection"
+  icon="code"
+  href="https://www.postman.com/kit-engineering/workspace/kit-public/api/1b68f3ef-a64b-4268-b9bd-46be3e7edede?action=share&source=copy-link&creator=37360778"
 >
-  View the OpenAPI specification file
+  View our Postman collection for a comprehensive API reference, including all endpoints, request and response examples, and authentication details.
 </Card>
 
-## Authentication
+## About Kit API V4
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Kit API V4 introduces many new features and improved functionality from our previous versions such as:
+- Improved performance
+- Cursor-based pagination
+- Bulk requests and async processing
+- New functionality for broadcasts, including access to subscriber filters and improved HTML support
+- Bug fixes
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+See our guide on [upgrading from V3 to V4](./).
